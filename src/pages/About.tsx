@@ -46,7 +46,7 @@ const About: React.FC = () => {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-[64px] overflow-hidden shadow-2xl relative z-10 border-8 border-white dark:border-white/5">
-              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" alt="Areotech Founder" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000" />
+              <img src="/Images/logo.jpeg" alt="Areotech Founder" className="w-full h-full object-cover transition-all duration-1000" />
             </div>
             <div className="absolute inset-0 bg-primary-600/20 rotate-6 rounded-[64px] -z-10 blur-xl"></div>
             
