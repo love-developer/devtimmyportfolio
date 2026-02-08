@@ -1,0 +1,8 @@
+{
+  "name": "Timileyin Portfolio - Creative Developer SaaS",
+  "description": "A premium, SaaS-style personal portfolio for a creative developer, featuring GSAP animations, Framer Motion transitions, and Firebase authentication.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
