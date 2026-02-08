@@ -1,18 +1,18 @@
 
 import React, { useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
-import { AuthProvider } from './context/AuthContext';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import { AuthProvider } from './src/context/AuthContext';
+import Navbar from './src/components/Navbar';
+import Footer from './src/components/Footer';
 
 // Pages
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Contact from './pages/Contact';
-import Auth from './pages/Auth';
-import Dashboard from './pages/Dashboard';
+import Home from './src/pages/Home';
+import About from './src/pages/About';
+import Services from './src/pages/Services';
+import Contact from './src/pages/Contact';
+import Auth from './src/pages/Auth';
+import Dashboard from './src/pages/Dashboard';
 
 const AnimatedRoutes = () => {
   const location = useLocation();

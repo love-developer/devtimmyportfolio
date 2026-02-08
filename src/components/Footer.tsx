@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center space-x-3 mb-8">
-              <div className="w-10 h-10 rounded-xl overflow-hidden shadow-lg shadow-primary-600/20">
-                <img src="/public/assets/logo.svg" alt="Areotech Logo" className="w-full h-full object-cover" />
+              <div className="w-10 h-10 overflow-hidden shadow-lg shadow-primary-600/20">
+                <img src="/Images/logo.jpeg" alt="Areotech Logo" className="w-full h-full object-cover" />
               </div>
               <span className="text-2xl font-black font-jakarta tracking-tighter uppercase">AREOTECH</span>
             </Link>

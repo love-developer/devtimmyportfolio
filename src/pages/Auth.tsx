@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 // Added Sparkles to the import list
 import { Mail, Lock, User, Github, Chrome, ArrowRight, Loader2, Sparkles } from 'lucide-react';
+// import { auth } from '../src/services/firebase';
 import { auth } from '../services/firebase';
 
 const Auth: React.FC = () => {
